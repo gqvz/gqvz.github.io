@@ -4,9 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #2b2b2b;
-    font-family: 'Rubik', sans-serif;
-    color: lightgrey;
+    color: white;
 }
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
 #name {
     color: dodgerblue;
 }
@@ -14,6 +18,7 @@ body {
 a:visited {
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -76,4 +81,41 @@ a {
 
 img {
     border-radius: 50%;
+}
+
+#second_page_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#skills_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    height: 100%;
+    background-color: #181a1b;
+    border-radius: 15px;
+}
+
+#skills_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.skill_item {
+    width: 100px;
+    padding: 2rem 5rem 1rem;
+    height: 100px;
 }
