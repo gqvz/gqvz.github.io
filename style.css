@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2b2b;
+    font-family: 'Rubik', sans-serif;
+    color: lightgrey;
+}
+#name {
+    color: dodgerblue;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#links {
+    font-size: 2rem;
+    padding-top: 15px;
+}
+
+.button {
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.95rem;
+    box-shadow: none;
+    border: none;
+}
+
+.button:hover {
+    background: #3b3b3b;
+}
+
+.button:active {
+    background: #1b1b1b;
+}
+#social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#about_me {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #181a1b;
+    border-radius: 15px;
+}
+
+#about_me_content {
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+#first_page_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#first_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    border-radius: 50%;
+}
