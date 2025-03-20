@@ -91,9 +91,10 @@ img {
     align-content: center;
 }
 
-#skills_section {
+#skills_section, #projects_section {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
     justify-content: center;
     align-self: center;
     width: 90%;
@@ -102,7 +103,8 @@ img {
     border-radius: 15px;
 }
 
-#skills_list {
+#skills_list{
+    gap: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -114,8 +116,36 @@ img {
     border-radius: 15px;
 }
 
+
+#projects_list {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
 .skill_item {
-    width: 100px;
+    width: 200px;
     padding: 2rem 5rem 1rem;
-    height: 100px;
+    height: 200px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    background-color: ;
+    border-radius: 5px;
+}
+
+.project_description {
+    padding-left: 20px;
+    padding-right: 20px;
 }
