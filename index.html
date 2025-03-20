@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Garvit Sharma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <!--suppress JSUnresolvedLibraryURL -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,9 +23,9 @@
                 </p>
                 <div id="social_links">
                     <div id="buttons">
-                        <input type="button" class="button" style="font-size: 1.3rem;margin-right: 1rem" value="Contact Me"
+                        <input type="button" class="button" style="margin-right: 1rem" value="Contact Me"
                                onclick="window.location.href='#third_page';">
-                        <input type="button" class="button" value="Projects" style="font-size: 1.3rem;"
+                        <input type="button" class="button" value="Projects"
                                onclick="window.location.href='#second_page';">
                     </div>
                     <div id="links">
@@ -34,12 +35,10 @@
                 </div>
             </div>
         </div>
-        <div id="image">
-            <img src="https://media1.tenor.com/m/nisaHYy8yAYAAAAd/besito-catlove.gif" width="300" height="300"
+        <img id="image" src="https://media1.tenor.com/m/nisaHYy8yAYAAAAd/besito-catlove.gif"
                  alt="cet">
-        </div>
     </div>
-    <a class="fa fa-chevron-down" style="padding-top: 6rem; align-self: center;" href="#second_page"></a>
+    <a class="down_arrow fa fa-chevron-down" href="#second_page"></a>
 
 </div>
 <div id="second_page">
@@ -144,11 +143,11 @@
         <div id="contact_section" style="margin-bottom: 2rem;">
             <h1 id="contact_header" style="align-self: center; font-size: 3rem;">Contact</h1>
             <div id="contact_info" style="display: flex; flex-wrap: wrap; justify-content: space-around; margin-bottom: 20px;">
-                <a href="mailto:contact@garvit.tech" style="align-self: center; margin-bottom: 1rem; font-size: 2rem;">
+                <a id="email" href="mailto:contact@garvit.tech">
                     <span class="fa fa-envelope"></span>
                     contact@garvit.tech
                 </a>
-                <span class="fa fa-phone" style="align-self: center; font-size: 2rem; margin-bottom: 1rem;">
+                <span class="fa fa-phone">
                     +91 1234567890
                 </span>
             </div>
