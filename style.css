@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+.skills_header, .projects_header, .contact_header {
+    align-self: center;
+    font-size: 3rem;
+}
+
+.button {
+    margin-right: 1rem;
+}
+
+.github_icon {
+    padding-right: 0.3rem;
+}
+
+.contact_section {
+    margin-bottom: 2rem;
+}
+
+.contact_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 1480px){
     body {
         display: flex;
@@ -18,7 +42,7 @@
         align-self: center;
     }
 
-    #name {
+  .name {
         color: dodgerblue;
     }
 
@@ -32,7 +56,7 @@
         color: white;
     }
 
-    #links {
+  .links {
         font-size: 2rem;
         padding-top: 15px;
     }
@@ -51,7 +75,7 @@
     .button:hover {
         background: #3b3b3b;
     }
-    #contact_info {
+  .contact_info {
         align-self: center;
         margin-bottom: 1rem;
         font-size: 2rem;
@@ -59,10 +83,10 @@
     .button:active {
         background: #1b1b1b;
     }
-    #title {
+  .title {
         font-size: 4rem;
     }
-    #social_links {
+  .social_links {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -72,7 +96,7 @@
         line-height: 2rem;
         font-size: 2em;
     }
-    #about_me {
+  .about_me {
         display: flex;
         overflow: scroll;
         flex-direction: column;
@@ -87,33 +111,33 @@
         height: 7rem;
         fill: rgb(255, 255, 255);
     }
-    #about_me_content {
+  .about_me_content {
         word-wrap: break-word;
         padding: 20px;
     }
 
-    #first_page_content {
+  .first_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
     }
-    #first_page {
+  .first_page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
     }
 
-    #image {
+  .image {
         height: 30rem;
         width: 30rem;
         border-radius: 50%;
         margin-top: 2rem;
     }
 
-    #second_page_content, #third_page_content {
+  .second_page_content, .third_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -121,7 +145,7 @@
         align-content: center;
     }
 
-    #skills_section, #projects_section, #contact_section {
+  .skills_section, .projects_section, .contact_section {
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
@@ -133,7 +157,7 @@
         border-radius: 15px;
     }
 
-    #skills_list{
+  .skills_list{
         gap: 100px;
         display: flex;
         flex-direction: row;
@@ -209,7 +233,7 @@
         align-self: center;
     }
 
-    #name {
+  .name {
         color: dodgerblue;
     }
 
@@ -223,7 +247,7 @@
         color: white;
     }
 
-    #links {
+  .links {
         font-size: 2rem;
         padding-top: 15px;
     }
@@ -246,16 +270,16 @@
     .button:active {
         background: #1b1b1b;
     }
-    #title {
+  .title {
         font-size: 2rem;
     }
-    #social_links {
+  .social_links {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-content:flex-end;
     }
-    #contact_info {
+  .contact_info {
         align-self: center;
         margin-bottom: 1rem;
         font-size: 2rem;
@@ -264,7 +288,7 @@
         line-height: 1.8rem;
         font-size: 1.5em;
     }
-    #about_me {
+  .about_me {
         display: flex;
         overflow: scroll;
         flex-direction: column;
@@ -279,33 +303,33 @@
         height: 7rem;
         fill: rgb(255, 255, 255);
     }
-    #about_me_content {
+  .about_me_content {
         word-wrap: break-word;
         padding: 20px;
     }
 
-    #first_page_content {
+  .first_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
     }
-    #first_page {
+  .first_page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
     }
 
-    #image {
+  .image {
         width: 20rem;
         height: 20rem;
         border-radius: 50%;
         margin-top: 1rem;
     }
 
-    #second_page_content, #third_page_content {
+  .second_page_content, .third_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -313,7 +337,7 @@
         align-content: center;
     }
 
-    #skills_section, #projects_section, #contact_section {
+  .skills_section, .projects_section, .contact_section {
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
@@ -325,7 +349,7 @@
         border-radius: 15px;
     }
 
-    #skills_list{
+  .skills_list{
         gap: 100px;
         display: flex;
         flex-direction: row;
@@ -401,7 +425,7 @@
         align-self: center;
     }
 
-    #name {
+  .name {
         color: dodgerblue;
     }
 
@@ -415,7 +439,7 @@
         color: white;
     }
 
-    #links {
+  .links {
         font-size: 2rem;
         padding-top: 15px;
         align-self: center;
@@ -441,10 +465,10 @@
     .button:active {
         background: #1b1b1b;
     }
-    #title {
+  .title {
         font-size: 1.5rem;
     }
-    #social_links {
+  .social_links {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -454,7 +478,7 @@
         line-height: 1.1rem;
         font-size: 1.3rem;
     }
-    #about_me {
+  .about_me {
         display: flex;
         overflow: scroll;
         flex-direction: column;
@@ -469,48 +493,48 @@
         height: 3rem;
         fill: rgb(255, 255, 255);
     }
-    #about_me_content {
+  .about_me_content {
         word-wrap: break-word;
         padding: 20px;
     }
 
-    #first_page_content {
+  .first_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
     }
-    #first_page {
+  .first_page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
     }
 
-    #image {
+  .image {
         width: 18rem;
         height: 18rem;
         border-radius: 50%;
         margin-top: 1rem;
     }
 
-    #second_page_content, #third_page_content {
+  .second_page_content, .third_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
     }
-    #contact_info {
+  .contact_info {
         align-self: center;
         margin-bottom: 1rem;
         font-size: 1.5rem;
     }
-    #email {
+  .email {
         margin-bottom: 1rem;
     }
-    #skills_section, #projects_section, #contact_section {
+  .skills_section, .projects_section, .contact_section {
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
@@ -522,7 +546,7 @@
         border-radius: 15px;
     }
 
-    #skills_list{
+  .skills_list{
         gap: 2rem;
         display: flex;
         flex-direction: row;
@@ -598,7 +622,7 @@
         align-self: center;
     }
 
-    #name {
+  .name {
         color: dodgerblue;
     }
 
@@ -612,7 +636,7 @@
         color: white;
     }
 
-    #links {
+  .links {
         font-size: 1.2rem;
         padding-top: 15px;
         align-self: center;
@@ -638,10 +662,10 @@
     .button:active {
         background: #1b1b1b;
     }
-    #title {
+  .title {
         font-size: 1.4rem;
     }
-    #social_links {
+  .social_links {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -651,7 +675,7 @@
         line-height: 0.8rem;
         font-size: 0.8rem;
     }
-    #about_me {
+    .about_me {
         display: flex;
         overflow: scroll;
         flex-direction: column;
@@ -666,48 +690,48 @@
         height: 3rem;
         fill: rgb(255, 255, 255);
     }
-    #about_me_content {
+    .about_me_content {
         word-wrap: break-word;
         padding: 20px;
     }
 
-    #first_page_content {
+  .first_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
     }
-    #first_page {
+  .first_page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         height: 100vh;
     }
 
-    #image {
+  .image {
         width: 16rem;
         height: 16rem;
         border-radius: 50%;
         margin-top: 1rem;
     }
 
-    #second_page_content, #third_page_content {
+  .second_page_content, .third_page_content {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: center;
     }
-    #contact_info {
+  .contact_info {
         align-self: center;
         margin-bottom: 1rem;
         font-size: 1.5rem;
     }
-    #email {
+  .email {
         margin-bottom: 1rem;
     }
-    #skills_section, #projects_section, #contact_section {
+  .skills_section, .projects_section, .contact_section {
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
@@ -719,7 +743,7 @@
         border-radius: 15px;
     }
 
-    #skills_list{
+  .skills_list{
         gap: 2rem;
         display: flex;
         flex-direction: row;
