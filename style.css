@@ -147,7 +147,7 @@ a, a:visited {
     transition: filter 0.4s ease;
 }
 
-.project:hover .project_description, .project:focus .project_description {
+.project:hover .project_description, .project:focus-within .project_description {
     pointer-events: all;
     opacity: 1;
     z-index: 1;
@@ -159,7 +159,7 @@ a, a:visited {
     transition: filter 0.4s ease;
 }
 
-.project:hover .project_title, .project:focus .project_title {
+.project:hover .project_title, .project:focus-within .project_title {
     filter: blur(16px);
 }
 .project_description {
