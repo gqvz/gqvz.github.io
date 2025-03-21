@@ -11,6 +11,10 @@ body {
     font-family: 'JetBrains Mono', sans-serif;
 }
 
+body * {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 .skills_header, .projects_header, .contact_header {
     align-self: center;
     font-size: 3rem;
@@ -147,11 +151,19 @@ a, a:visited {
     transition: filter 0.4s ease;
 }
 
-.project:hover .project_description, .project:focus-within .project_description {
-    pointer-events: all;
+.project:hover .project_description, .project:focus .project_description {
     opacity: 1;
     z-index: 1;
     filter: none;
+}
+
+.project:hover .project_gh_button, .project:focus .project_gh_button {
+    visibility: visible !important;
+}
+
+.project_gh_button {
+    touch-action: none;
+    visibility:hidden !important;
 }
 
 .project_title {
@@ -163,7 +175,6 @@ a, a:visited {
     filter: blur(16px);
 }
 .project_description {
-    pointer-events: none;
     opacity: 1;
     filter: blur(16px);
     overflow: hidden;
@@ -226,7 +237,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 2.5rem;
+        line-height: 2.6rem;
         font-size: 1.7em;
     }
 
@@ -311,7 +322,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 1.8rem;
+        line-height: 1.9rem;
         font-size: 1.5em;
     }
 
@@ -398,7 +409,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 1.1rem;
+        line-height: 1.3rem;
         font-size: 1.3rem;
     }
 
@@ -489,7 +500,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 1.1rem;
+        line-height: 1.3rem;
         font-size: 1.3rem;
     }
 
@@ -580,7 +591,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 1.1rem;
+        line-height: 1.3rem;
         font-size: 1.3rem;
     }
 
@@ -672,7 +683,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 1.1rem;
+        line-height: 1.3rem;
         font-size: 1.3rem;
     }
 
@@ -764,7 +775,7 @@ a, a:visited {
     }
 
     .about_me_description {
-        line-height: 2vh;
+        line-height: 2.1vh;
         font-size: 2vh;
     }
 
