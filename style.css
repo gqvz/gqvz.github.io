@@ -509,10 +509,6 @@ a, a:visited {
     .project_description {
         font-size: 1.5rem;
     }
-
-    .submit_button {
-        width: 20rem;
-    }
 }
 @media only screen and (min-width: 750px) and (max-width: 1130px) {
     .down_arrow {
