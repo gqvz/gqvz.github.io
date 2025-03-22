@@ -165,13 +165,13 @@ a, a:visited {
 }
 
 .project:hover .project_gh_button, .project:focus .project_gh_button {
-    visibility: visible !important;
+    visibility: visible;
 }
 
 .project_gh_button {
     cursor: pointer;
     touch-action: none;
-    visibility:hidden !important;
+    visibility:hidden;
 }
 .svg_skill:hover {
     scale: 1.3;
@@ -213,10 +213,6 @@ a, a:visited {
     margin-bottom: 1rem;
 }
 
-.phone {
-    font-family: "Jetbrains Mono", sans-serif;
-    align-self: center;
-}
 
 @media only screen and (min-width: 1480px) {
     .down_arrow {
@@ -225,8 +221,9 @@ a, a:visited {
     }
 
     .links {
-        font-size: 2rem;
-        padding-top: 1rem;
+        font-size: 3rem;
+        padding-top: 0.5rem;
+        margin-right: 2rem;
     }
 
     .button {
@@ -310,8 +307,9 @@ a, a:visited {
     }
 
     .links {
-        font-size: 2rem;
-        padding-top: 1rem;
+        font-size: 3rem;
+        padding-top: 0.5rem;
+        margin-right: 1rem;
     }
 
     .button {
