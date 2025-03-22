@@ -242,7 +242,7 @@ a, a:visited {
 }
 
 .submit_button {
-    width: 40vw;
+    width: 20vw;
     margin-bottom: 2rem;
     margin-top: 1rem;
     margin-right: 0;
@@ -508,6 +508,10 @@ a, a:visited {
 
     .project_description {
         font-size: 1.5rem;
+    }
+
+    .submit_button {
+        width: 20rem;
     }
 }
 @media only screen and (min-width: 750px) and (max-width: 1130px) {
