@@ -75,7 +75,8 @@ a, a:visited {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-evenly;
+    height: 90%;
 }
 
 .second_page_content, .third_page_content {
@@ -250,7 +251,7 @@ a, a:visited {
 
 @media only screen and (min-width: 1480px) {
     .down_arrow {
-        padding-top: 6rem;
+        padding-top: 3rem;
         align-self: center;
     }
 
