@@ -27,6 +27,7 @@
                     <div class="links">
                         <a class="github_icon fa fa-github" href="https://github.com/gqvz"></a>
                         <a class="fa fa-linkedin" href="https://www.linkedin.com/in/garvit-sharma-71357a207/"></a>
+                        <a class="fa fa-envelope" href="mailto://contact@garvit.tech"></a>
                     </div>
                 </div>
             </div>
@@ -144,10 +145,12 @@
         <div class="contact_section">
             <h1 class="contact_header">Contact</h1>
             <div class="contact_info">
-                <a class="email" href="mailto:contact@garvit.tech">
-                    <span class="fa fa-envelope"></span>
-                    contact@garvit.tech
-                </a>
+                <form class="contact_me_form" action="https://api.web3forms.com/submit" method="POST">
+                    <input style=""  type="hidden" name="access_key" value="f40050a2-ad97-4785-ba5a-2f348d21dcd3">
+                        <input class="email_field" type="email" name="email" required placeholder="Your Email">
+                        <textarea class="message_field" name="message" required placeholder="Type Your Message Here"></textarea>
+                    <button class="button submit_button" type="submit">Submit Form</button>
+                </form>
             </div>
         </div>
     </div>

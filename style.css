@@ -213,6 +213,40 @@ a, a:visited {
     margin-bottom: 1rem;
 }
 
+.message_field {
+    resize: none;
+    width: 40vw;
+    margin: 1rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    background-color: #2c3b44;
+    padding: 1rem
+}
+
+.email_field {
+    width: 40vw;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    height: 2rem;
+    background-color: #2c3b44;
+    color: white;
+    padding: 1rem;
+}
+
+.contact_me_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit_button {
+    width: 40vw;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-right: 0;
+}
 
 @media only screen and (min-width: 1480px) {
     .down_arrow {
@@ -566,6 +600,30 @@ a, a:visited {
     .project_description {
         font-size: 1.5rem;
     }
+
+    .email_field {
+        width: 80%;
+    }
+
+    .message_field {
+        width: 80%;
+    }
+
+    .contact_me_form {
+        width: 100%;
+    }
+
+    .contact_section {
+        width: 100%;
+    }
+
+    .submit_button {
+        width: 20rem;
+    }
+
+    .contact_info {
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 650px) and (max-width: 750px) {
     .down_arrow {
@@ -656,6 +714,31 @@ a, a:visited {
 
     .project_description {
         font-size: 1.5rem;
+    }
+
+
+    .email_field {
+        width: 80%;
+    }
+
+    .message_field {
+        width: 80%;
+    }
+
+    .contact_me_form {
+        width: 100%;
+    }
+
+    .contact_section {
+        width: 100%;
+    }
+
+    .submit_button {
+        width: 20rem;
+    }
+
+    .contact_info {
+        width: 100%;
     }
 }
 
@@ -749,6 +832,31 @@ a, a:visited {
     .project_description {
         font-size: 1.5rem;
     }
+
+
+    .email_field {
+        width: 80%;
+    }
+
+    .message_field {
+        width: 80%;
+    }
+
+    .contact_me_form {
+        width: 100%;
+    }
+
+    .contact_section {
+        width: 100%;
+    }
+
+    .submit_button {
+        width: 20rem;
+    }
+
+    .contact_info {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -840,5 +948,30 @@ a, a:visited {
 
     .project_description {
         font-size: 1.5rem;
+    }
+
+
+    .email_field {
+        width: 80%;
+    }
+
+    .message_field {
+        width: 80%;
+    }
+
+    .contact_me_form {
+        width: 100%;
+    }
+
+    .contact_section {
+        width: 100%;
+    }
+
+    .submit_button {
+        width: 20rem;
+    }
+
+    .contact_info {
+        width: 100%;
     }
 }
